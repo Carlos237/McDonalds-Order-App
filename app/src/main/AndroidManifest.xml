@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.orderapp">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.orderapp.MainActivity"></activity>
+        <activity android:name="com.example.orderapp.McPolloActivity" />
+        <activity android:name="com.example.orderapp.SummaryActivity" />
+        <activity android:name="com.example.orderapp.BigMacActivity" />
+        <activity android:name="com.example.orderapp.RoyalDeluxeActivity" />
+        <activity android:name="com.example.orderapp.CboActivity" />
+        <activity android:name="com.example.orderapp.WrapActivity" />
+        <activity android:name="com.example.orderapp.SignatureActivity" />
+        <activity android:name="com.example.orderapp.ExtremeActivity" />
+        <activity android:name="com.example.orderapp.ChickenSupremeActivity" />
+        <activity android:name="com.example.orderapp.DoubleCheeseActivity" />
+        <activity android:name="com.example.orderapp.splashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="com.example.orderapp.Database.OrderProvider"
+            android:authorities="com.example.orderapp"
+            android:exported="true" />
+    </application>
+
+</manifest>

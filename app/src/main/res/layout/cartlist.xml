@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/orderSummary"
+        android:text="Burger Name"
+        android:textStyle="bold"
+        android:id="@+id/burgerNameinOrderSummary"
+        android:layout_marginLeft="10dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/orderSummary"
+        android:layout_toRightOf="@+id/burgerNameinOrderSummary"
+        android:text="x"
+        android:textStyle="bold"
+        android:id="@+id/quantityinOrderSummary"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/hasFries"
+        android:textStyle="italic"
+
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/burgerNameinOrderSummary"
+        android:text="has Fries"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/hasFries"
+        android:id="@+id/hasDrink"
+        android:textStyle="italic"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/burgerNameinOrderSummary"
+        android:text="has drink"/>
+
+    <TextView
+        android:id="@+id/hasType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/burgerNameinOrderSummary"
+
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="1dp"
+        android:text="has type"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="$10"
+        android:id="@+id/priceinOrderSummary"
+        android:layout_marginRight="10dp"/>
+
+
+
+</RelativeLayout>

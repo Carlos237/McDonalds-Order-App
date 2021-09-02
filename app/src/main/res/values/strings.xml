@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">McDonalds App</string>
+
+
+    <string name="bigmac">Dos jugosas hamburguesas de carne 100% vacuno español, lechuga fresca y crujiente, cebolla, pepinillo, queso Cheddar fundido y nuestra inimitable salsa secreta. Todo esto envuelto en un nuevo pan de sésamo horneado al estilo tradicional.
+
+</string>
+
+
+    <string name="mcpollo">El ineludible bocado de pollo crujiente
+Crujiente pollo con mayonesa y lechuga, en pan con semilla de sésamo.  </string>
+
+
+    <string name="cbo">Disfruta en McDonald’s de CBO™, deliciosa hamburguesa con tus tres ingredientes favoritos: Chicken,
+        Bacon, Onion. Delicioso pollo, crujiente bacon y el sabor sorprendente de nuestro crispy onion, con lechuga, queso, una salsa original y un pan único..</string>
+
+
+    <string name="royaldeluxe">¡Un sabor especial!
+Comprueba por ti mismo qué hace especial al sabor de McRoyal Deluxe®. ¿Será su excepcional carne, su queso, sus rodajas de tomate?¿O puede que sea su lechuga, su salsa mayonesa o su tierno pan?</string>
+
+
+    <string name="wrap">Disfruta de nuestro delicioso Wrap de pollo crujiente con Bacon</string>
+
+
+    <string name="extreme">Disfruta el doble con su deliciosa carne 100% vacuno español acompañada de queso Gouda, bacon, cebolla blanca y nuestra inconfundible salsa de bacon. Nuestra Grand McExtreme de McDonalds®
+        más emblemática, ahora con mucho más de lo que te gusta.</string>
+    <string name="supreme">Nuestro inconfundible pollo crujiente acompañado de deliciosa salsa Supreme y fresca lechuga ahora en un nuevo formato de pan oval que no te dejará indiferente.</string>
+    <string name="doubles">Doble hamburguesa, queso, pepinillos, cebolla, kétchup y mostaza. Toda ella entre nuestro delicioso pan ovalado con semolina. ¿Qué te parece?</string>
+    <string name="signature">¡Te dejará sin palabras!Prueba la nueva Signature de McDonalds®
+        Queso de Cabra. Con carne 100% vacuno español, exquisito queso de cabra, cebolla caramelizada, lechuga Batavia y una espectacular salsa con cebolla. </string>
+    <!-- The class name to the ScrollingChildBehavior required for AppBarLayout -->
+
+</resources>
